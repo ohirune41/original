@@ -1,24 +1,41 @@
-# README
+# アプリケーション名
+映画並び替え(仮)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション概要
+映画のタイトルを検索すると、シリーズモノの映画だった場合は映画内の時系列順に表示される
 
-Things you may want to cover:
+# URL
 
-* Ruby version
 
-* System dependencies
+# テスト用アカウント
+・ Basic認証パスワード:
+・ Basic認証ID:
 
-* Configuration
+# 利用方法
 
-* Database creation
 
-* Database initialization
+# アプリケーションを作成した背景
+最近困っていることについて考えた時にアクション映画を見るのが好きで、シリーズモノの映画を最近見るようになった事を思い出しました。その映画の関連作品が20作品以上あり見る前に時系列を調べてから見ているので、調べる作業を簡単にできるアプリケーションを作成すればこの問題を解決できると思い作成しようと思いました。
 
-* How to run the test suite
+# 洗い出した要件
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+# 実装した機能についての画像やGIFおよびその説明
 
-* ...
+
+# 実装予定の機能
+
+
+# データベース設計
+
+
+# 画面遷移図
+
+
+# 開発環境
+
+
+# ローカルでの動作方法
+
+
+# 工夫したポイント
