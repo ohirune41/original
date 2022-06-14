@@ -12,6 +12,7 @@
 ・ Basic認証ID:
 
 # 利用方法
+## 検索機能
 
 
 # アプリケーションを作成した背景
@@ -30,7 +31,7 @@
 
 
 # 画面遷移図
-
+[![Image from Gyazo](https://i.gyazo.com/1f57938c75a66db83e8f826ddd6789e4.png)](https://gyazo.com/1f57938c75a66db83e8f826ddd6789e4)
 
 # 開発環境
 
