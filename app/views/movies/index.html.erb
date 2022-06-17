@@ -7,7 +7,19 @@
 
   <body>
     <div class='main'>
-    
+
+      <%# 検索フォーム %>
+      <div class='search-bar-contents'>
+        <form class="search-form" action="#">
+          <input class='input-box' placeholder='タイトルを入力'>
+          <button class="search-button">
+            <%= image_tag "search.png", class:"search-icon" %>
+          </button>
+        </form>
+      </div>
+      <%# 検索フォーム %>
+
+      <%# 背景 %>
       <%# 仮置き %>
       <!-- threejs.org canvas lines example -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
@@ -151,6 +163,7 @@
         }
       </script>
       <%# 仮置き %>
+      <%# 背景 %>
 
     </div>
   </body>
