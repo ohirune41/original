@@ -1,3 +1,4 @@
+/* 検索フォーム */
 .search-bar-contents {
   position: relative;
 }
@@ -30,7 +31,9 @@
 .search-icon {
   width: 100%;
 }
+/* 検索フォーム */
 
+/* 背景 */
 /* 仮置き */
 /* gradient fallbacks taken from csstricks.com */
 body {
@@ -56,3 +59,4 @@ body {
   overflow: hidden;
 }
 /* 仮置き */
+/* 背景 */
