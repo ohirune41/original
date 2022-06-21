@@ -1,4 +1,5 @@
-.search-bar-contents {
+/* 検索フォーム */
+.main {
   position: relative;
 }
 
@@ -30,11 +31,45 @@
 .search-icon {
   width: 100%;
 }
+/* 検索フォーム */
 
+/* 映画情報 */
+.info {
+  position: absolute;
+  top: 100px;
+}
+
+.card {
+  // box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 28%;
+  margin-bottom: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.card-upperinfo {
+  height: 80px;
+}
+/* 映画情報 */
+
+/* 背景 */
 /* 仮置き */
 /* gradient fallbacks taken from csstricks.com */
 body {
-  
   /* SVG fallback for IE 9 (could be data URI, or could use filter) */
   background-image: url(fallback-gradient.svg);
   
@@ -53,6 +88,6 @@ body {
   /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
   background-image: linear-gradient(to right, red, #f06d06);
   margin: 0px;
-  overflow: hidden;
 }
 /* 仮置き */
+/* 背景 */
