@@ -10,12 +10,12 @@
 
       <%# 検索フォーム %>
       <div class='search-bar-contents'>
-        <form class="search-form" action="#">
-          <input class='input-box' placeholder='タイトルを入力'>
+        <%= form_tag(root_path, method: :get, class:'search-form') do %>
+          <%= search_field_tag :looking_for, nil, class:'input-box', placeholder: 'タイトルを入力' %>
           <button class="search-button">
             <%= image_tag "search.png", class:"search-icon" %>
           </button>
-        </form>
+        <% end %>
       </div>
       <%# 検索フォーム %>
 
@@ -24,33 +24,25 @@
         <%if params[:looking_for].present? %>
           <% movieinfo = JSON.parse((Tmdb::Search.movie(params[:looking_for])).to_json) %>
           <h2><%= params[:looking_for] %>の検索結果</h2>
-          =====================
           <% i = 0 %>
           <div class="card-wrapper">
             <% while i < movieinfo['table']['results'].count %>
               <div class="card">
+                <% if movieinfo['table']['results'][i]['table']['poster_path'].present? %>
+                  <p><%= image_tag 'https://image.tmdb.org/t/p/w1280' + movieinfo['table']['results'][i]['table']['poster_path'],class: "card-img" %></p>
+                <%end%>
                 <div class="card-upperinfo">
                   <%if movieinfo['table']['results'][i]['table']['title'].present?%>
                     <h3><%= link_to movieinfo['table']['results'][i]['table']['title'],detail_path(movieinfo['table']['results'][i]['table']['id']) %></h3>
                   <%end%>
-
-                  <% if movieinfo['table']['results'][i]['table']['release_date'].present? %>
-                    <p class="release-date"><%= movieinfo['table']['results'][i]['table']['release_date'] %></p>
-                  <%end%>
                 </div>
-
-
-                <% if movieinfo['table']['results'][i]['table']['poster_path'].present? %>
-                  <p><%= image_tag 'https://image.tmdb.org/t/p/w1280' + movieinfo['table']['results'][i]['table']['poster_path'],class: "card-img" %></p>
-                <%end%>
               </div>
               <% i += 1%>
             <%end%>
           </div>
         <%else%>
           <%# 検索されていない時にトレンドコンテンツを表示する %>
-          <h2>本日の世界のトレンド</h2>
-          ====================
+          <h2>現在の人気作品</h2>
           <% movieinfo = JSON.parse((Tmdb::Movie.popular).to_json) %>
           <% i = 0 %>
           <div class="card-wrapper">
