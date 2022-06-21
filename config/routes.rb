@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   root to: 'movies#index'
-  resources :movies, only: :show
+  get 'movies/:id' => "movies#show",as: 'detail'
 end
