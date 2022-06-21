@@ -1,8 +1,10 @@
-/* 検索フォーム */
 .main {
   position: relative;
+  height: 100%;
+  overflow: scroll;
 }
 
+/* 検索フォーム */
 .search-form {
   width: 65vw;
   height: 5vh;
@@ -92,6 +94,7 @@ body {
   /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
   background-image: linear-gradient(to right, red, #f06d06);
   margin: 0px;
+  height: 100vh;
 }
 /* 仮置き */
 /* 背景 */
