@@ -1,6 +1,57 @@
 <%= render "shared/header" %>
 
 <div class='detail'>
+  <%# 映画情報 %>
+  <% detail = JSON.parse((Tmdb::Movie.detail(params[:id])).to_json) %>
+  <div class='detail-top'>
+    <div class='detail-poster'>
+      <% if detail['table']['poster_path'].present? %>
+        <%= image_tag 'https://image.tmdb.org/t/p/w1280' + detail['table']['poster_path'], class:"detail-img" %>
+      <% end %>
+    </div>
+    <div class='detail-video'>
+      <div class='tentative'>予告映像</div>
+    </div>
+  </div>
+  <div class='detail-center'>
+    <div class='detail-title'>
+      <% if detail['table']['title'].present? %>
+        <%= detail['table']['title'] %>
+      <% end %>
+    </div>
+    <div class='detail-date'>
+      <% if detail['table']['release_date'].present? %>
+        <%= "公開日 : " + detail['table']['release_date'] %>
+      <% end %>
+    </div>
+  </div>
+  <div class='detail-under'>
+    <div class='detail-synopsis'>あらすじ</div>
+    <div class='detail-overview'>
+      <% if detail['table']['overview'].present? %>
+        <p><%= detail['table']['overview'] %></p>
+      <% end %>
+    </div>
+  </div>
+  <%# 映画情報 %>
+
+  <%# 各プラットフォームのボタン %>
+  <div class='movie-btn-contents'>
+    <div class='btn-contents'>
+      <div class='movie-btn'>
+        <div class='btn-top'>
+          <%= link_to 'Amazon', 'https://www.amazon.co.jp/Amazon-Video/b/?ie=UTF8&node=2351649051&ref_=nav_cs_prime_video', target:'_blank', rel:'noreferrer noopener', class:"amazon-btn" %>
+          <%= link_to 'Hulu', 'https://www.hulu.jp/?cmp=10904&waad=cCjRX1oV&gclid=CjwKCAjw-8qVBhANEiwAfjXLrt2oe_3FoNhyVMolSc7bIUDHiBZJ5Ka9imJAZ_A8bn3FBgFyfvjHaxoCIg0QAvD_BwE', target:'_blank', rel:'noreferrer noopener', class:"hulu-btn" %>
+        </div>
+        <div class='btn-under'>
+          <%= link_to 'Disney+', 'https://www.disneyplus.com/ja-jp/welcome/stream-now?cid=DSS-Search-Google-71700000087937968-&s_kwcid=AL%218468%213%21557195666539%21e%21%21g%21%21%E6%98%A0%E7%94%BB+%E9%85%8D%E4%BF%A1&gclid=CjwKCAjw-8qVBhANEiwAfjXLrsuorEWiFrk4F2Y_BmqrzRQTgfb4StezaHDZ4AGR5ZzfvFOxDb9j4xoCUcEQAvD_BwE&gclsrc=aw.ds', target:'_blank', rel:'noreferrer noopener', class:"disney-btn" %>
+          <%= link_to 'U-NEXT', 'https://video.unext.jp/', target:'_blank', rel:'noreferrer noopener', class:"u-next-btn" %>
+        </div>
+      </div>
+      <%= link_to 'もどる', root_path, class:"back-btn" %>
+    </div>
+  </div>
+  <%# 各プラットフォームのボタン %>
 
   <%# 背景 %>
       
