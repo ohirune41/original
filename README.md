@@ -34,7 +34,7 @@ https://docs.google.com/spreadsheets/d/1Q0GWhoWLeLrnDIKLtjORlbe25hTgdaRhqpkg1CsN
 現段階では、APIで取得した情報を表示させているので、データベースがありません。
 
 # 画面遷移図
-[![Image from Gyazo](https://i.gyazo.com/1f57938c75a66db83e8f826ddd6789e4.png)](https://gyazo.com/1f57938c75a66db83e8f826ddd6789e4)
+[![Image from Gyazo](https://i.gyazo.com/d81aa532d7ee8bbf69db1d0720ddf5e7.png)](https://gyazo.com/d81aa532d7ee8bbf69db1d0720ddf5e7)
 
 # 開発環境
 
