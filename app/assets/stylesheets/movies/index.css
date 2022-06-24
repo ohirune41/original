@@ -57,6 +57,7 @@ h2 {
   margin-bottom: 100px;
   padding: 20px;
   box-sizing: border-box;
+  background-color: #fbf3ec;
 }
 
 .card-wrapper {
@@ -81,5 +82,10 @@ h2 {
   font-size: 20px;
   color: black;
   text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
 }
 /* 映画情報 */
+
+/* 背景 */
+
+/* 背景 */
