@@ -27,7 +27,7 @@ https://docs.google.com/spreadsheets/d/1Q0GWhoWLeLrnDIKLtjORlbe25hTgdaRhqpkg1CsN
 # 実装した機能についての画像やGIFおよびその説明
 ・検索機能  
   1.検索フォームに映画のタイトルを入れる
-  [![Image from Gyazo](https://i.gyazo.com/548467916068225e965d9a341533b673.jpg)](https://gyazo.com/548467916068225e965d9a341533b673)
+  [![Image from Gyazo](https://i.gyazo.com/d02a8f5453674f324321708b7dd0b83e.jpg)](https://gyazo.com/d02a8f5453674f324321708b7dd0b83e)
   2.Enterキーを押すと検索した映画情報が表示される
   [![Image from Gyazo](https://i.gyazo.com/196b906f684baf09888c759318bb28d6.jpg)](https://gyazo.com/196b906f684baf09888c759318bb28d6)
   
