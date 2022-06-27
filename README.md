@@ -26,7 +26,10 @@ https://docs.google.com/spreadsheets/d/1Q0GWhoWLeLrnDIKLtjORlbe25hTgdaRhqpkg1CsN
 
 # 実装した機能についての画像やGIFおよびその説明
 ・検索機能  
-[![Image from Gyazo](https://i.gyazo.com/9f0ed62ec22ab32c32900a872092bf6a.gif)](https://gyazo.com/9f0ed62ec22ab32c32900a872092bf6a)  
+  1.検索フォームに映画のタイトルを入れる
+  [![Image from Gyazo](https://i.gyazo.com/548467916068225e965d9a341533b673.jpg)](https://gyazo.com/548467916068225e965d9a341533b673)  
+  2.Enterキーを押すと検索した映画情報が表示される
+  [![Image from Gyazo](https://i.gyazo.com/196b906f684baf09888c759318bb28d6.jpg)](https://gyazo.com/196b906f684baf09888c759318bb28d6)
 ・トップページのタイトルをクリックすると詳細画面に遷移する  
 [![Image from Gyazo](https://i.gyazo.com/83047fb715c0d715f007213e4396dd27.gif)](https://gyazo.com/83047fb715c0d715f007213e4396dd27)  
 ・詳細画面にあるAmazonやHuluのボタンをクリックすると新規タブで開く  
