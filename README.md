@@ -25,10 +25,17 @@ https://original-37976-1.herokuapp.com/
 https://docs.google.com/spreadsheets/d/1Q0GWhoWLeLrnDIKLtjORlbe25hTgdaRhqpkg1CsNfR0/edit#gid=982722306
 
 # 実装した機能についての画像やGIFおよびその説明
-
+・検索機能  
+[![Image from Gyazo](https://i.gyazo.com/9f0ed62ec22ab32c32900a872092bf6a.gif)](https://gyazo.com/9f0ed62ec22ab32c32900a872092bf6a)  
+・トップページのタイトルをクリックすると詳細画面に遷移する  
+[![Image from Gyazo](https://i.gyazo.com/83047fb715c0d715f007213e4396dd27.gif)](https://gyazo.com/83047fb715c0d715f007213e4396dd27)  
+・詳細画面にあるAmazonやHuluのボタンをクリックすると新規タブで開く  
+[![Image from Gyazo](https://i.gyazo.com/6bef9d1f9692b009571cc82739b26a98.gif)](https://gyazo.com/6bef9d1f9692b009571cc82739b26a98)
 
 # 実装予定の機能
-
+・検索したシリーズモノの映画を時系列順に表示させる  
+・トップページのポスターにカーソルを合わせると予告映像が再生される  
+・予告映像を詳細画面に表示させる
 
 # データベース設計
 現段階では、APIで取得した情報を表示させているので、データベースがありません。
@@ -37,9 +44,20 @@ https://docs.google.com/spreadsheets/d/1Q0GWhoWLeLrnDIKLtjORlbe25hTgdaRhqpkg1CsN
 [![Image from Gyazo](https://i.gyazo.com/d81aa532d7ee8bbf69db1d0720ddf5e7.png)](https://gyazo.com/d81aa532d7ee8bbf69db1d0720ddf5e7)
 
 # 開発環境
-
+・プログラミング言語  
+　HTML・CSS,Ruby  
+・データベース  
+　MySQL
 
 # ローカルでの動作方法
-
+以下のコマンドを順に実行  
+% git clone https://github.com/ohirune41/original.git  
+% cd original  
+% bundle install  
+% yarn install
 
 # 工夫したポイント
+・テーブルを作成してそこに映画情報を登録していく方法ではなく、APIをしようして情報を自分のサイトに表示させるようにした事です。  
+・調べたらそのまま映画を見れるように映画を見れるサイトに遷移できるリンクを配置しました。  
+・まだロゴの部分しかできていませんが映画に関するアプリケーションなのでアニメーションでロゴを動かしているところです。  
+　今後、背景もアニメーションで動かそうと考えています。
