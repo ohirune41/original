@@ -27,13 +27,19 @@ https://docs.google.com/spreadsheets/d/1Q0GWhoWLeLrnDIKLtjORlbe25hTgdaRhqpkg1CsN
 # 実装した機能についての画像やGIFおよびその説明
 ・検索機能  
   1.検索フォームに映画のタイトルを入れる
-  [![Image from Gyazo](https://i.gyazo.com/548467916068225e965d9a341533b673.jpg)](https://gyazo.com/548467916068225e965d9a341533b673)  
+  [![Image from Gyazo](https://i.gyazo.com/548467916068225e965d9a341533b673.jpg)](https://gyazo.com/548467916068225e965d9a341533b673)
   2.Enterキーを押すと検索した映画情報が表示される
   [![Image from Gyazo](https://i.gyazo.com/196b906f684baf09888c759318bb28d6.jpg)](https://gyazo.com/196b906f684baf09888c759318bb28d6)
+  
 ・トップページのタイトルをクリックすると詳細画面に遷移する  
-[![Image from Gyazo](https://i.gyazo.com/83047fb715c0d715f007213e4396dd27.gif)](https://gyazo.com/83047fb715c0d715f007213e4396dd27)  
+  [![Image from Gyazo](https://i.gyazo.com/32c419895b69447a1a9536a243d423d0.jpg)](https://gyazo.com/32c419895b69447a1a9536a243d423d0)
+  [![Image from Gyazo](https://i.gyazo.com/51468136bd4d001e1f970ae36e2a7a69.png)](https://gyazo.com/51468136bd4d001e1f970ae36e2a7a69)
+  
 ・詳細画面にあるAmazonやHuluのボタンをクリックすると新規タブで開く  
-[![Image from Gyazo](https://i.gyazo.com/6bef9d1f9692b009571cc82739b26a98.gif)](https://gyazo.com/6bef9d1f9692b009571cc82739b26a98)
+  1.Amazonなどのボタンをクリックする
+  [![Image from Gyazo](https://i.gyazo.com/472144551f02880fcbf9428916c26f75.png)](https://gyazo.com/472144551f02880fcbf9428916c26f75)
+  2.新規タブで各ページに遷移する
+  [![Image from Gyazo](https://i.gyazo.com/235ca6fe5510521ca2f4855028f98d93.jpg)](https://gyazo.com/235ca6fe5510521ca2f4855028f98d93)
 
 # 実装予定の機能
 ・検索したシリーズモノの映画を時系列順に表示させる  
