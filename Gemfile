@@ -55,3 +55,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'themoviedb-api', '~> 1.3'
 gem 'pry-rails'
+gem 'dotenv-rails'
